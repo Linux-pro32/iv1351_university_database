@@ -18,5 +18,5 @@ SELECT
     period AS "Period",
     num_courses AS "No of courses"
 FROM teacher_period_counts
-WHERE num_courses > 2
+WHERE num_courses > 0
 ORDER BY "Period", num_courses DESC;
